@@ -1,2 +1,2 @@
 #!/bin/bash
-cat iacta | head -n -11 | tail -n -2
+cat iacta | head -n -11 | tail -n -1
