@@ -8,7 +8,7 @@
 
 i=1
 while [ $i -le 20 ]; do
-      if [ $((i%15)) -eq 0 ]; then
+      if [ $((i%3)) -eq 0 -a $((i%5)) -eq 0 ]; then
          echo "FizzBuzz"
       elif [ $((i%5)) -eq 0 ]; then
          echo "Buzz"
