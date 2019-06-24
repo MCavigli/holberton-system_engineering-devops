@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# kills 4-to_infinity_and_beyond process without kill or killall
+
+pkill -f 7-highlander
