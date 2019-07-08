@@ -1,9 +1,9 @@
 # 0x06. Regular expression
 
-## Directory
-`0x06-regular_expressions`
+**Repo:** `holberton-system_engineering-devops`
+**Directory:** `0x06-regular_expressions`
 
-[Regular Expression(https://intranet.hbtn.io/concepts/29)
+[Regular Expression](https://intranet.hbtn.io/concepts/29)
 
 ## Background Context
 For this project, you have to build your regular expression using Oniguruma, a regular expression library that which is used by Ruby by default. Note that other regular expression libraries sometimes have different properties.
@@ -43,8 +43,9 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 * The regular expression must match Holberton
 * Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
 
-File: 0-simply_match_holberton.rb
+File: `0-simply_match_holberton.rb`
 
+Example:
 ```
 sylvain@ubuntu$ ./0-simply_match_holberton.rb Holberton | cat -e
 Holberton$
@@ -55,3 +56,91 @@ HolbertonHolberton$
 sylvain@ubuntu$ ./0-simply_match_holberton.rb "Grace Hopper" | cat -e
 $
 ```
+
+### TASK 1
+![Task 1 image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/78/repetition-token-0.png)
+
+* Find the regular expression that will match the above cases
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+
+File: `1-repetition_token_0.rb`
+
+### TASK 2
+![Task 2 image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/78/repetition-token-1.png)
+
+* Find the regular expression that will match the above cases
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+
+File: `2-repetition_token_1.rb`
+
+### TASK 3
+![Task 3 image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/78/repetition-token-2.png)
+
+* Find the regular expression that will match the above cases
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+
+File: `3-repetition_token_2.rb`
+
+### TASK 4
+![Task 4 image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/78/repetition-token-3.png)
+
+* Find the regular expression that will match the above cases
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+
+File: `4-repetition_token_3.rb`
+
+### TASK 5
+
+* The regular expression must be exactly matching a string that starts with `h` ends with `n` and can have any single character in between
+* Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
+
+Example:
+```
+sylvain@ubuntu$ ./5-beginning_and_end.rb 'hn' | cat -e
+$
+sylvain@ubuntu$ ./5-beginning_and_end.rb 'hbn' | cat -e
+hbn$
+sylvain@ubuntu$ ./5-beginning_and_end.rb 'hbtn' | cat -e
+$
+sylvain@ubuntu$ ./5-beginning_and_end.rbb 'h8n' | cat -e
+h8n$
+sylvain@ubuntu$
+$
+```
+
+File: `5-beginning_and_end.rb`
+
+### TASK 6
+
+* The regular expression must match a 10 digit phone number
+
+Example:
+```
+sylvain@ubuntu$ ./6-phone_number.rb 4155049898 | cat -e
+4155049898$
+sylvain@ubuntu$ ./6-phone_number.rb " 4155049898" | cat -e
+$
+sylvain@ubuntu$ ./6-phone_number.rb "415 504 9898" | cat -e
+$
+sylvain@ubuntu$ ./6-phone_number.rb "415-504-9898" | cat -e
+$
+sylvain@ubuntu$
+```
+
+File: `6-phone_number.rb`
+
+### TASK 7
+
+* The regular expression must be only matching: capital letters
+
+```
+sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "I realLy hOpe VancouvEr posseSs Yummy Soft vAnilla Dupper Mint Ice Nutella cream" | cat -e
+ILOVESYSADMIN$
+sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "WHAT do you SAY?" | cat -e
+WHATSAY$
+sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "cannot read you" | cat -e
+$
+sylvain@ubuntu$
+```
+
+File: `7-OMG_WHY_ARE_YOU_SHOUTING.rb`
