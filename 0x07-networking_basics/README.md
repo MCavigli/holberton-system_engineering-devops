@@ -22,8 +22,8 @@
 * [TCP/IP Illustrated](https://intranet.hbtn.io/rltoken/_1WbYLcQ_nK9y1FBtOXpoQ)
 
 **man or help**:
-`netstat`
-`ping`
+[`netstat`](https://linux.die.net/man/8/netstat)
+[`ping`](https://linux.die.net/man/8/ping)
 
 ## Requirements
 
