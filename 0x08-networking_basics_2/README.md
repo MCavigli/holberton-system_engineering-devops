@@ -9,6 +9,7 @@
 * [What is 0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0)
 * [What is the hosts file](https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/)
 * [Netcat examples](https://www.thegeekstuff.com/2012/04/nc-command-examples/)
+* [Docker page for Task 2](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
 
 ### Man or help:
 
