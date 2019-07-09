@@ -167,7 +167,7 @@ While the full list of ports should not be memorized, it is important to know th
       * 80 for HTTP
       * 443 for HTTPS
 
-Note that a specific IP + port = socket.
+Note that a specific [IP + port = socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket).
 
 Write a Bash script that displays listening ports:
 
