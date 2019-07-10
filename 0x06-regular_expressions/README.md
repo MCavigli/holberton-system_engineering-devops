@@ -29,6 +29,7 @@ sylvain@ubuntu$ ./example.rb 127.0.0.a
 * [Use a regular expression against a problem: now you have 2 problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)
 * [Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 * [Regex cheat sheet](https://www.rexegg.com/regex-quickstart.html)
+* [Regex crossword puzzles](https://regexcrossword.com/)
 
 ## Requirements
 
