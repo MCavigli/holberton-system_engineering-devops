@@ -21,6 +21,7 @@ Obviously writing Puppet code for your infrastructure requires an investment of 
 * [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
 * [Puppet resource type: file](https://puppet.com/docs/puppet/3.8/types/file.html)
 * [Puppet resource type: pacakge](https://puppet.com/docs/puppet/5.5/types/package.html#package-attribute-provider)
+* [Puppet resource type: exec](https://puppet.com/docs/puppet/3.8/types/exec.html#exec-attribute-tries)
 * [Puppet’s Declarative Language: Modeling Instead of Scripting](https://puppet.com/blog/puppet%E2%80%99s-declarative-language-modeling-instead-of-scripting)
 * [Puppet lint](http://puppet-lint.com/)
 * [Puppet emacs mode](https://github.com/voxpupuli/puppet-mode)
