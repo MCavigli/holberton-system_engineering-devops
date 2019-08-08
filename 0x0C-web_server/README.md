@@ -54,10 +54,15 @@ Check out the Docker concept page for more info about how to manipulate containe
 * [HTTP redirection](https://moz.com/learn/seo/redirection)
 * [Not found HTTP response code](https://en.wikipedia.org/wiki/HTTP_404)
 * [Logs files on Linux](https://www.cyberciti.biz/faq/ubuntu-linux-gnome-system-log-viewer/)
+* [Nginx custom error pages](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-to-use-custom-error-pages-on-ubuntu-14-04)
+* [How To Create Temporary and Permanent Redirects with Nginx](https://www.digitalocean.com/community/tutorials/how-to-create-temporary-and-permanent-redirects-with-nginx)
+
 * [RFC 7231 (HTTP/1.1)](https://tools.ietf.org/html/rfc7231)
 * [RFC 7540 (HTTP/2)](https://tools.ietf.org/html/rfc7540)
+
 * [scp](https://linux.die.net/man/1/scp)
 * [curl](https://linux.die.net/man/1/curl)
+
 
 ## Requirements
 
