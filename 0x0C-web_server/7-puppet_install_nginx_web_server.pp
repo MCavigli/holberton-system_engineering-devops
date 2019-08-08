@@ -11,7 +11,7 @@ file { 'path_to_html':
 file_line { 'put_in_line':
   ensure => present,
   path   => 'etc/nginx/sites-available/default',
-  after  => 'server_name_;',
+  after  => '/listen 80 default_server;'
   line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;'
 }
 service { 'nginx':
