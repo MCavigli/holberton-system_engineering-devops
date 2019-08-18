@@ -3,5 +3,5 @@
 
 apt-get -y update
 apt-get -y install nginx
-ln -sf /etc/nginx/sites-available/mysite.com /etc/nginx/sites-enabled/default
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
