@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Fix to Nginx not listening to port 80
+apt-get -y update
+apt-get -y install nginx
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx start
