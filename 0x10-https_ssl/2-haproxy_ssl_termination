@@ -53,3 +53,6 @@ backend www-backend
         balance roundrobin
         server 718-web-01 35.231.100.106:80 check
         server 718-web-02 35.237.151.115:80 check
+
+backend letsencrypt-backend
+    server letsencrypt 127.0.0.1:54321
