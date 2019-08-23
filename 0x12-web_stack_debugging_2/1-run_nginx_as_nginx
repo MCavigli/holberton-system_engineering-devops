@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Changes root user to nginx for web server
 pkill apache2
-chown -R nginx /etc/nginx
+chown nginx:nginx /etc/nginx/nginx.conf
 chmod 644 /etc/nginx/nginx.conf
 sed -i 's/80/8080/g' /etc/nginx/sites-available/default
-sudo -u nginx systemctl restart nginx
+sudo -u nginx service nginx start
