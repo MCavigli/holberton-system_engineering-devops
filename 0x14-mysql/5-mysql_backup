@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Backups all SQL databases and compresses them
-THEDATE=$(date +'%d-%m-%Y')
+THEDATE=
 mysqldump --user=root --password="$1" -ulocahost --all-databases > backup.sql
-tar -cvzf '$THEDATE'tar.gz backup.sql
+tar -cvzf "$(date +'%d-%m-%Y')tar.gz" backup.sql
