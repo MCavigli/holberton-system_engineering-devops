@@ -3,13 +3,9 @@
 import requests
 from sys import argv
 
-"""
-def arg_check(x=None):
-    '''Checks to make sure the included argument is valid'''
-    if x == None:
-"""
 
 if __name__ == "__main__":
+    '''Gives name of employee and completed tasks'''
     if len(argv) is not 2:
         print("Command takes 2 arguments")
         exit
