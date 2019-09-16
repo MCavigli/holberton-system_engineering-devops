@@ -25,9 +25,10 @@ if __name__ == "__main__":
         if i['userId'] == int(_id):
             tasks.append(i)
     for i in tasks:
-        tasks_dict.append({'name': name,
+        tasks_dict.append({'task': i['title'],
                            'completed': i['completed'],
-                           'title': i['title']})
+                           'username': name
+                           })
     id_dict = {_id: tasks_dict}
     with open('{}.json'.format(_id), mode='w') as json_file:
         json.dump(id_dict, json_file)
