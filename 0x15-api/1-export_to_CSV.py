@@ -28,7 +28,7 @@ if __name__ == "__main__":
                            'id': _id,
                            'completed': i['completed'],
                            'title': i['title']})
-    with open('USER_ID.csv', mode='w') as csv_file:
+    with open('{}.csv'.format(_id), mode='w') as csv_file:
         fieldnames = ['id', 'name', 'completed', 'title']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames, quotechar='"',
                                 quoting=csv.QUOTE_ALL)
