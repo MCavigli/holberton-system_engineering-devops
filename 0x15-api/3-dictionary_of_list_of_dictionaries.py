@@ -33,5 +33,5 @@ if __name__ == "__main__":
                 continue
         id_dict.update({k: tasks_dict})
         tasks_dict = []
-    with open('todo_all_employees.json.json', mode='w') as json_file:
+    with open('todo_all_employees.json', mode='w') as json_file:
         json.dump(id_dict, json_file)
