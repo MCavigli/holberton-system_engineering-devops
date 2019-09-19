@@ -10,7 +10,8 @@ def top_ten(subreddit):
                  'Unix:com.holberton.apiadvanced:task1 (by /u/_marc_marc_)'}
     req = requests.get(URL, headers=USERAGENT)
     if req.status_code is not 200:
-        return (0)
+        print("None")
+        exit()
     jreq = req.json()
     data_path = jreq['data']['children']
     for i in range(10):
