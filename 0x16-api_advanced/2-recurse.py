@@ -9,18 +9,13 @@ def recurse(subreddit, hot_list=[], count=0, after_val=None):
     USERAGENT = {'User-Agent':
                  'Unix:com.holberton.apiadvanced:task0 (by /u/_marc_marc_)'}
     params = {'limit': 100}
-    if count == 0:
-        req = requests.get(URL,
-                           headers=USERAGENT,
-                           params=params)
-    else:
+    if count > 0:
         params['after'] = after_val
-        req = requests.get(URL,
-                           headers=USERAGENT,
-                           params=params)
+    req = requests.get(URL,
+                       headers=USERAGENT,
+                       params=params)
     if req.status_code is not 200:
-        print(None)
-        return
+        return (None)
     jreq = req.json()
     data_path = jreq['data']['children']
     for i in range(len(data_path)):
@@ -28,7 +23,6 @@ def recurse(subreddit, hot_list=[], count=0, after_val=None):
     count += 1
     after_val = jreq['data']['after']
     if after_val is None:
-        print(len(hot_list))
         return (hot_list)
     else:
         return (recurse(subreddit, hot_list, count, after_val))
